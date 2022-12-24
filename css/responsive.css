@@ -1,0 +1,50 @@
+@media (min-width: 1700px) 
+{
+    .header::after {
+        content: "";
+        display: block;
+        background: url(../img/latrai_header.png) top left no-repeat;
+        background-size: contain;
+        position: absolute;
+        width: 235px;
+        height: 165px;
+        left: 0px;
+        top: 0px;
+    }
+
+    #header::before {
+        content: "";
+        display: block;
+        background: url(../img/laphai_header.png) top right no-repeat;
+        background-size: contain;
+        position: absolute;
+        width: 235px;
+        height: 165px;
+        right: 0px;
+        top: 0px;
+    }
+
+    #footer::after {
+        content: "";
+        display: block;
+        background: url(../img/latrai_header.png) top left no-repeat;
+        background-size: contain;
+        position: absolute;
+        width: 235px;
+        height: 165px;
+        left: 0px;
+        bottom: 0px;
+    }
+
+    #footer::before {
+        content: "";
+        display: block;
+        background: url(../img/laphai_header.png) top right no-repeat;
+        background-size: contain;
+        position: absolute;
+        width: 235px;
+        height: 165px;
+        right: 0px;
+        bottom: 0px;
+    }
+}
